@@ -1,4 +1,4 @@
-Creación de Cuenta en Microsoft Azure**
+**Creación de Cuenta en Microsoft Azure**
 
 Para el despliegue de la aplicación PokeDex, se ha seleccionado la plataforma de nube pública **Microsoft Azure**. A continuación, se detalla el proceso paso a paso para la creación de la cuenta y la identificación de la suscripción activa que se utilizará, denominada **"Azure subscription 1"**
 
