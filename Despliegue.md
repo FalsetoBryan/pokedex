@@ -49,7 +49,11 @@ Una vez finalizada la acción de compilación en GitHub, la aplicación quedó e
 
 Para verificar la eficacia de los encabezados HTTP implementados en el paso 1, se sometió la URL pública a un escaneo en **securityheaders.com**, logrando la calificación máxima de seguridad.
 
-> Captura del escaneo en SecurityHeaders con calificación 
+> Captura del escaneo en SecurityHeaders con calificación
+>
+> [captura con SSL Labs]
+> (https://drive.google.com/file/d/1qGqVqpg8FRG9dSZZR9fDVeiETG2E5KPR/view?usp=drive_link)
+> 
 > [captura de escaneo de seguridad](https://drive.google.com/file/d/1WVYrgJjoGiGpakuHquG_Abp7oQVe5k8I/view?usp=drive_link)
 
 > Written with [StackEdit](https://stackedit.io/).
