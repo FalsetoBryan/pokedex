@@ -48,3 +48,5 @@ Para el despliegue de la aplicación PokeDex, se ha seleccionado la plataforma d
     
 
 > [suscripcion](https://drive.google.com/file/d/1WodpuzLUxfXr3bUPFNonQ8itzwO0pf85/view?usp=drive_link)
+>
+> Written with [StackEdit](https://stackedit.io/).
