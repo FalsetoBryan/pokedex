@@ -47,7 +47,7 @@ Una vez dentro de la carpeta del proyecto, se ejecutaron los comandos secuencial
 >[git init y git add . captura](https://drive.google.com/file/d/1DXBWF3wk6qXLlwgf7mlqWIbOjXXIVsrG/view?usp=sharing)
     
 4.  **`git commit -m "Primer commit: subiendo código fuente PokeDex"`**: Creó el primer punto de guardado en el historial con un mensaje descriptivo.
-> [primer commit](https://drive.google.com/file/d/1DXBWF3wk6qXLlwgf7mlqWIbOjXXIVsrG/view?usp=drive_link)
+> [primer commit](https://drive.google.com/file/d/1NKG3d0-FgGefNztYLDfwe-pmGuxL55OO/view?usp=drive_link)
     
 6.  **`git branch -M main`**: Estableció `main` como la rama principal de trabajo.
     
