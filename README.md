@@ -1,4 +1,72 @@
-**Creación de Cuenta en Microsoft Azure**
+# Creación del Repositorio y Subida del Código Fuente a GitHub
+
+Para gestionar el control de versiones y permitir el despliegue automático hacia Azure, el código fuente de la PokeDex se alojó en un repositorio de GitHub. A continuación, se detallan los pasos realizados.
+
+## Paso 1: Creación del Repositorio en GitHub
+
+1.  Se ingresó a la cuenta de GitHub y se creó un nuevo repositorio público.
+    
+2.  El repositorio fue nombrado exactamente **`pokedex`** para cumplir con los lineamientos del proyecto.
+    
+3.  Se dejó el repositorio completamente vacío (sin archivo README ni .gitignore inicial) para evitar conflictos al vincularlo con el código local.
+    
+
+> **Captura de la creación del repositorio vacío en GitHub** 
+> 
+> [Creacion  de repositorio](https://drive.google.com/drive/folders/1RM2CivftWTa4jIDuoEcdIZ8flP8ojjG-?usp=drive_link)
+
+## Paso 2: Preparación del Entorno Local
+
+1.  Se descargó y extrajo el código fuente original de la aplicación Angular (PokeDex) en una carpeta local (`C:\Users\RYZEN\Downloads\pokedex-angular`).
+    
+2.  Se abrió la consola de comandos (CMD/Terminal) y se navegó hasta la ruta del proyecto.
+    
+3.  Se configuraron las credenciales de Git globales para enlazar los cambios a la cuenta de GitHub correspondiente, solucionando el error de "Author identity unknown":
+    
+  CMD
+    
+    ```
+    git config --global user.email "bryanmorelos98@gmail.com"
+    git config --global user.name "FalsetoBryan"
+    
+    ```
+  
+> Captura de la terminal con la configuración inicial
+
+>[captura autorizacion](https://drive.google.com/file/d/1NKG3d0-FgGefNztYLDfwe-pmGuxL55OO/view?usp=drive_link)
+
+
+## Paso 3: Inicialización y Subida del Código
+
+Una vez dentro de la carpeta del proyecto, se ejecutaron los comandos secuenciales de Git para inicializar el repositorio local, preparar los archivos y subirlos a la nube:
+
+1.  **`git init`**: Inicializó el control de versiones de Git en la carpeta local.
+    
+2.  **`git add .`**: Agregó todos los archivos extraídos del proyecto al área de preparación (staging).
+
+>[git init y git add . captura](https://drive.google.com/file/d/1DXBWF3wk6qXLlwgf7mlqWIbOjXXIVsrG/view?usp=sharing)
+    
+4.  **`git commit -m "Primer commit: subiendo código fuente PokeDex"`**: Creó el primer punto de guardado en el historial con un mensaje descriptivo.
+> [primer commit](https://drive.google.com/file/d/1DXBWF3wk6qXLlwgf7mlqWIbOjXXIVsrG/view?usp=drive_link)
+    
+6.  **`git branch -M main`**: Estableció `main` como la rama principal de trabajo.
+    
+7.  **`git remote add origin https://github.com/FalsetoBryan/pokedex.git`**: Vinculó la carpeta local con el repositorio vacío alojado en GitHub.
+    
+8.  **`git push -u origin main`**: Subió finalmente todos los archivos a los servidores de GitHub. (Durante este paso, se completó la autenticación en el navegador mediante el ecosistema de Git).
+   >  [captura del paso 6,7 y 8](https://drive.google.com/file/d/1Qq-eSDLN9P9fSTmWUMb5rgnjEY_600E6/view?usp=drive_link)
+
+> Captura de la terminal con los comandos ejecutados y la subida exitosa
+> [subida exitosa](https://drive.google.com/file/d/1qUTQ3pWzzUKS963chHPOhNO6jxYMpKE4/view?usp=drive_link)
+> 
+Al finalizar este proceso, todo el código base de Angular quedó reflejado en la rama `main` del repositorio remoto, dejándolo listo para ser conectado al servicio de Azure Static Web Apps.
+
+>**Captura del repositorio en GitHub con los archivos ya subidos**
+[repositorio](https://drive.google.com/file/d/1jphjMlv-fRY3sXOGNQeUHUxCMheSWZTL/view?usp=drive_link)
+
+
+
+ # Creación de Cuenta en Microsoft Azure
 
 Para el despliegue de la aplicación PokeDex, se ha seleccionado la plataforma de nube pública **Microsoft Azure**. A continuación, se detalla el proceso paso a paso para la creación de la cuenta y la identificación de la suscripción activa que se utilizará, denominada **"Azure subscription 1"**
 
