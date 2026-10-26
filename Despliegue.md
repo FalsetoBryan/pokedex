@@ -6,7 +6,16 @@ Este documento detalla el paso a paso del despliegue del código fuente de la ap
 
 Antes de desplegar, se implementaron las directivas de seguridad para cumplir con los estándares de calificación A+. Se creó el archivo `staticwebapp.config.json` en la raíz del repositorio de GitHub con la configuración de encabezados HTTP (CSP, HSTS, X-Frame-Options, X-XSS-Protection, Referrer-Policy).
 
-> **Captura del archivo staticwebapp.config.json en GitHub**[staticwebapp.config.json](https://drive.google.com/file/d/10UnZxc8XXPXqK3HQv06sby9vJbUxHGx2/view?usp=drive_link) 
+> [crear nuevo archivo](https://drive.google.com/file/d/1-UOo0vIRBliOpZXjh6ikF9S_LGjzpUpr/view?usp=drive_link)
+> 
+> [agregar archivo](https://drive.google.com/file/d/1A4V63sgpToyVmfsVKNEZl5qOkv9DZspD/view?usp=drive_link)
+> 
+> **Captura del archivo staticwebapp.config.json en GitHub**
+> 
+> [comfirmar cambios](https://drive.google.com/file/d/12mEhTHVHBtc7oYlVv_rtc8enDGcm8Iyb/view?usp=drive_link)
+> 
+> [staticwebapp.config.json](https://drive.google.com/file/d/10UnZxc8XXPXqK3HQv06sby9vJbUxHGx2/view?usp=drive_link) 
+
 
 ## 2. Creación del Recurso en Azure
 
