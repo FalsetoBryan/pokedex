@@ -54,7 +54,7 @@ Una vez finalizada la acción de compilación en GitHub, la aplicación quedó e
 
 > Captura de la PokeDex funcionando en el navegador
 > 
-> [captura de pokedex navegador](https://drive.google.com/file/d/127hA7qoP2T28VcEe5Uf-Q580cQRZTtrC/view?usp=drive_link)
+> [captura de pokedex navegador](https://drive.google.com/file/d/1_zowkh3cbl9Nxo3fjPax5uLnLAOTUpQD/view?usp=sharing)
 
 Para verificar la eficacia de los encabezados HTTP implementados en el paso 1, se sometió la URL pública a un escaneo en **securityheaders.com**, logrando la calificación máxima de seguridad.
 > 
